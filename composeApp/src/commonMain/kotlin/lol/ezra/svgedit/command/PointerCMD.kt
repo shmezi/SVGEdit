@@ -9,4 +9,9 @@ class PointerCMD : Command {
    override val name = "Pointer"
    override val description = "The pointing thing"
    override val icon: ImageVector = Icons.Default.Add
+
+   init {
+
+
+   }
 }

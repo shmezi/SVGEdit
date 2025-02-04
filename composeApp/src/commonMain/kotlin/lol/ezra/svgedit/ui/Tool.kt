@@ -1,8 +1,5 @@
-package lol.ezra.svgedit
+package lol.ezra.svgedit.ui
 
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.AccountBox
-import androidx.compose.material.icons.filled.Create
 import androidx.compose.ui.graphics.vector.ImageVector
 import lol.ezra.svgedit.assets.generated.MyIconPack
 import lol.ezra.svgedit.assets.generated.myiconpack.Pointer

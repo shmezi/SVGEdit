@@ -1,7 +1,6 @@
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackConfig
-
 plugins {
    alias(libs.plugins.kotlinMultiplatform)
    alias(libs.plugins.composeMultiplatform)
@@ -39,6 +38,8 @@ kotlin {
 // https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-stdlib
          implementation("org.jetbrains.kotlin:kotlin-stdlib:2.1.0")
          implementation ("androidx.graphics:graphics-shapes:1.0.1")
+         implementation("io.github.vinceglb:filekit-compose:0.8.8")
+         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
 
 //         implementation(libs.gestures)
          implementation(compose.foundation)

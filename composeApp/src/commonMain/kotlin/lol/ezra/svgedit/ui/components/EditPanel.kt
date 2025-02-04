@@ -1,4 +1,4 @@
-package lol.ezra.svgedit
+package lol.ezra.svgedit.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.Orientation
@@ -14,6 +14,7 @@ import androidx.compose.ui.input.pointer.pointerHoverIcon
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.zIndex
+import lol.ezra.svgedit.document.EditorSettings
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
